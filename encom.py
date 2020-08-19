@@ -30,8 +30,6 @@ class Window(QDialog):
         self.setStyleSheet("background-color:rgb(5,5,5)")
         labelImage = QLabel(self)
 
-
-
         #pixmap = QPixmap("Interface.jpg")
         #labelImage.setPixmap(pixmap)
 
@@ -41,7 +39,6 @@ class Window(QDialog):
         self.encomKeyboard()
 
         self.show()
-
 
     def encomKey(self, key):
         Key = QToolButton()
@@ -76,8 +73,6 @@ class Window(QDialog):
         self.encomKeyRow(self.thirdRow)
         self.encomKeyRow(self.forthRow)
         self.encomKeyRow(['                                                                                                  '])
-
-
 
 if __name__=="__main__":
     App = QApplication(sys.argv)
